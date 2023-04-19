@@ -12,6 +12,5 @@ st.write("""Max of three numbers""")
 n1=st.number_input("Number1")
 n2=st.number_input("Number2")
 n3=st.number_input("Number3")
-st.button("Hell")
 if st.button("Run"):
   st.write(max(n1,n2,n3))
