@@ -9,8 +9,9 @@ Original file is located at
 
 import streamlit as st
 st.write("""Max of three numbers""")
-n1=st.number_input(int(input("Number 1")))
+n1=st.number_input("Number1")
 n2=st.number_input(int(input("Number 2")))
 n3=st.number_input(int(input("Number 3")))
+st.button("Hell")
 if st.button("Run"):
   st.write(max(n1,n2,n3))
